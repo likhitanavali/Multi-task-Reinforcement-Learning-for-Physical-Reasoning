@@ -1,0 +1,31 @@
+{
+    "name": "CustomPush3",
+    "lvl_type": "marker",
+    "target": "[0.09, -0.48 + OFFSET]",
+    "goal": "[-0.51, -0.91 +  OFFSET]",
+    "rnd": {
+        "marker_ball:0": "[uniform(-HIGH_NOISE, HIGH_NOISE), uniform(-HIGH_NOISE, HIGH_NOISE)]",
+        "target,medium_floor:0": "[uniform(-HIGH_NOISE, HIGH_NOISE), uniform(-HIGH_NOISE, HIGH_NOISE)]",
+        "goal,medium_floor:1": "[uniform(-HIGH_NOISE, HIGH_NOISE), uniform(-HIGH_NOISE, HIGH_NOISE)]"
+    },
+    "env": [
+        {
+            "name": "marker_ball",
+            "pos": [
+                0.41,
+                0.53
+            ],
+            "id": 0
+        },
+        {
+            "name": "medium_floor",
+            "pos": "[0.09, -0.48]",
+            "id": 0
+        },
+        {
+            "name": "medium_floor",
+            "pos": "[-0.51, -0.91]",
+            "id": 1
+        }
+    ]
+}
